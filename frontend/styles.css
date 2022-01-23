@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.topDivButtons{
+    margin-top: 0;
+    
+    height: 15%;
+    width: 100%;
+
+    background-color: black;
+}
+
+.columnDivShow{
+    margin-top: 2.5%;
+    height: 75%;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.widhtValueDisplay {
+    position: absolute;
+    color: white;
+    margin-top: 1.5%;
+    margin-left: 5%;
+    font-size: 1.2em;
+}
+
+.widhtValueInput {
+    position: absolute;
+    color: white;
+    margin-top: 1.5%;
+    margin-left: 12%;
+    font-size: 1.1em;
+    background-color: transparent;
+    border: none;
+
+    width: 5%;
+}
+
+.barCountDisplay {
+    position: absolute;
+    color: white;
+    margin-top: 4%;
+    margin-left: 5%;
+    font-size: 1.2em;
+}
+
+.date {
+    position: absolute;
+    color: white;
+    margin-top: 6%;
+    margin-left: 95%;
+}
+
+.barCountInput {
+    position: absolute;
+    color: white;
+    margin-top: 4%;
+    margin-left: 12%;
+    font-size: 1.1em;
+    background-color: transparent;
+    border: none;
+
+    width: 5%;
+}
+
+
+.textLabel {
+    height: 50%;
+    width: 20%;
+
+    margin-left: 40%;
+    margin-right: 40%;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-weight: bold;
+
+    color: white;
+}
+
+
+.sortButton {
+    margin-left: 37.5%;
+    margin-right: 37.5%;
+    border: none;
+
+    height: 35%;
+    width: 25%;
+
+    background-image: linear-gradient(to right, red, yellow);
+
+    border-radius: 15rem;
+
+    background-size: 200% 200%;
+
+    font-weight: 700;
+    font-size: medium;
+    animation: Animation 2s ease infinite;
+}
+
+@keyframes Animation { 
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
